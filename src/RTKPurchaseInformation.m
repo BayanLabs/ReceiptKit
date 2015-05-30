@@ -16,6 +16,8 @@
 
 @implementation RTKPurchaseInformation
 
+@synthesize hash = _hash;
+
 - (instancetype)initWithASN1Object:(RTKASN1Object *)asn1Object
 {
     if(self = [super init])
