@@ -4,5 +4,5 @@ Pod::Spec.new do |s|
   s.summary      = 'Simple StoreKit receipt validation and processing.'
   s.author       = { 'Richard Stelling' => 'support@empiricalmagic.com' }
   s.source       = { :git => 'https://github.com/rjstelling/ReceiptKit.git' }
-  s.source_files = 'ReceiptKit/*.{h,m}'
+  s.source_files = 'src/*.{h,m}'
 end
